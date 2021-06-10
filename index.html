@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Quiz</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./golenretriever.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="image-animation flex-items">
+        <h1>Dog Breed Quiz</h1>
+        <h3>Test Your Knowledge On Dog Breeds</h3>
+        <a href="#game"><button class="play-button" id="play-quiz">Play Now!</button></a>
+    </section>
+    <section class="container section-margin flex-items" id="game">
+        <div class="title-score-container flex-items">
+            <h1>Try to guess as many breeds as possible.</h1>
+            <h3>Score: <span id='score'>0</span></h3>
+        </div>
+        <div class="image-quiz" id="dog-images">
+        </div>
+        <div class="button grid-button">
+            <button class="button-quiz" id="option_one"></button><button class="button-quiz" id="option_two"></button>
+            <button class="button-quiz" id="option_three"></button><button class="button-quiz" id="option_four"></button>
+        </div>
+        <button class='button-quiz' id='next-button'>next</button>
+       
+    </section>
+    <script src="json.js"></script>
+</body>
+
+</html>
