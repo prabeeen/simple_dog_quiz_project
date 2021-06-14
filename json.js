@@ -214,8 +214,10 @@ next_btn.addEventListener('click', (e)=>{
     {
         btn_4.removeAttribute('style');
     }
+    number_list_all = generate_num_list_all();
     next_btn.style.display = 'none';
     enable_after_next();
+    
 
 })
 
